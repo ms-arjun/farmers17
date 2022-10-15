@@ -1,0 +1,241 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+.home img{
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    margin-top: 30px;
+    position: relative;
+    
+}
+
+.home h1{
+    font-style: italic;
+    position: absolute;
+    bottom: 500px;
+    left:500px;
+}
+
+.header{
+    min-height: 100vh;
+    width:100%;
+    background-color: rgb(230, 224, 224);
+}
+
+nav h1{
+    font-size: 30px;
+    display: flex;
+    justify-content: left;
+    background-image: url("tribut.webp");
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    left: 0%;
+   }
+
+a{
+    color:green;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+}
+nav ul > li{
+    margin: auto;
+    padding :10px;
+    justify-content: right;
+    align-items: center;
+    list-style-type:none;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: white;
+    position: relative;
+    top:20px;
+    background-color: rgb(230, 224, 224);
+   }
+ a:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+ 
+   }
+.front{
+    margin-top: 50px;
+}
+.front img{
+    float:left;
+    width:250px;
+    height:250px;
+    margin-right: 15px;
+
+}
+.front img:hover{
+ 
+    border:3px outset green;
+
+}
+
+.front p{
+    text-indent: 70px;
+    margin-top: 10px;
+}
+ 
+p:hover{
+    background-color: rgb(241, 223, 223);
+}
+
+.flx{
+    display: flex;
+    background-color:rgb(230, 224, 224 );
+    margin-top: 30px;
+}
+
+.flx>div{
+padding: 10px;
+}
+
+.flx img{
+    width:250px;
+    height:250px;
+}
+
+.flx img:hover{
+    border:3px outset green;
+}
+
+.news-top img{
+    height:100px;
+    width:100px;
+    margin:60px;
+}
+
+.news-top img:hover{
+    border:3px outset green;
+
+}
+
+.news-top  h2 {
+    position: relative;
+    left:200px;
+    bottom:150px;
+
+}
+
+.news-top  h5 {
+    position: relative;
+    left:200px;
+    bottom:140px;
+}
+
+.intro > p{
+    text-indent: 70px;
+    margin: 10px;
+}
+
+.intro2 > p{
+    text-indent: 70px;
+    margin: 10px;
+
+}
+
+.intro2 > ol{
+    margin-left: 15px;
+    text-indent: 150px;
+}
+
+.links a{
+    margin-left: 50px ;
+    
+
+}
+
+.links p{
+    text-indent: 20px;
+    margin-left: 50px;
+    margin:10px;
+    border-bottom: 1px solid green;
+}
+
+.main-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 300px 80px;
+    gap:10px;
+    padding:50px;
+    margin-top: 40px;
+
+}
+
+.sub-grid{
+    text-align: center;
+    background-color:  rgb(241, 223, 223) ;
+
+}
+
+.main-grid :hover{
+    background-color: bisque;
+
+}
+
+.main-grid1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 300px 80px;
+    gap:10px;
+    padding:50px;
+    margin-top: 40px;
+
+}
+
+.sub-grid1{
+    text-align: center;
+    background-color:  rgb(241, 223, 223) ;
+
+}
+
+.main-grid1 :hover{
+    background-color: bisque;
+
+}
+
+.main-grid2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 300px 80px;
+    gap:10px;
+    padding:50px;
+    margin-top: 40px;
+
+}
+
+.sub-grid2{
+    text-align: center;
+    background-color:  rgb(241, 223, 223) ;
+
+}
+
+.main-grid2 :hover{
+    background-color: bisque;
+
+}
+
+.footer{
+    height:80px;
+    width:100%;
+    background-image: url("tribut.webp");
+    background-size: cover;
+    margin-top: 70px;
+}
+.footer h1{
+    text-align: center;
+}
+
+.footer h4{
+    text-indent: 70px;
+}
